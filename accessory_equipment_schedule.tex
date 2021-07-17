@@ -4,21 +4,21 @@
 \usepackage{graphicx}
 \usepackage{array, makecell} 
 \begin{document}
-\begin{sidewaystable}[h!]
-\begin{center}
+\begin{table}[h!]
+\centering
 
 \caption{\large Accessories and Equipment Schedule}
 \begin{tabular}{l|l|l|l|l|l|l|l}
-\textbf{Type Mark} & \textbf{Count} & \textbf{Description} & \textbf{Manufacturer} & \textbf{Model} & \textbf{Finish} & \textbf{Comments} \\
+\textbf{\makecell[l]{Type\\ Mark}} & \textbf{\#} & \textbf{Desc} & \textbf{Brand} & \textbf{Model} & \textbf{Finish} & \textbf{Comments} \\
 \hline
 \hline
-EQ5   & 1  & Towel warmer & Hudson and Reed & UFG-HTRBB060173WE  & white & supplied by client \\ 
+EQ5   & 1  & \makecell[l]{Towel \\ warmer} & \makecell[l]{Hudson \\and Reed} & UFG-HTRBB060173WE  & white & supplied by client \\ 
 \hline
-EQ7   & 1  & Medicine cabinet & Robern & PLM2030G & n/a &\makecell{supplied by client \\ to be surface mounted \\ to tiled surface} \\
+EQ7   & 1  & \makecell[l]{Medicine \\ cabinet} & Robern & PLM2030G & n/a &\makecell[l]{supplied by client \\ to be surface mounted \\ to tiled surface} \\
 
 \end{tabular}
-\end{center}
-\end{sidewaystable}
+%\end{center}
+\end{table}
 
 NOTES TO ERIN AND MICHAEL: confirm size on the towel warmer and purchase
 
